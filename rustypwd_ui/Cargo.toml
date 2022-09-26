@@ -1,0 +1,11 @@
+[package]
+name = "rustypwd_ui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustypwd = { path = ".." }
+druid = { git = "https://github.com/linebender/druid.git" }
+tracing = "0.1.36"

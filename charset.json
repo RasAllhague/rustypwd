@@ -1,0 +1,5 @@
+{
+    "lowercase": "abcdefghijklmnopqrstuvwxyz1234567890",
+    "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "special": "!\"§$%&/()=?`.,;:_/*-+#*"
+}

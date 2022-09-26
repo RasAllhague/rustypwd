@@ -1,0 +1,19 @@
+[package]
+name = "rustypwd"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+secstr = "0.5.0"
+rand = "0.8.5"
+serde = { version = "1.0.139", features = ["derive"] }
+serde_json = "1.0.82"
+chrono =  { version = "0.4.19", features = ["serde"] }
+uuid =  { version = "1.1.2", features = ["serde", "v4"] }
+zeroize = "1.5.6"
+chacha20poly1305 = { version = "0.9.1", features = ["stream"] }
+rust-argon2 = "1.0.0"
+anyhow = "1.0.58"
+directories = "4.0.1"
